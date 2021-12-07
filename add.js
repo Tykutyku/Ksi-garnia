@@ -8,5 +8,6 @@ constructor(title,isbn,author,date){
 }
 
 const log[] = require("./books.json")
-
 console.log(log);
+
+module.exports = Book;
